@@ -2,7 +2,8 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from lxml import etree as ET
+from lxml import etree
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -12,21 +13,21 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    inputXml = ET.parse("input.xml")
-    outXml = ET.Element("root")
+    inputXml = etree.parse("input.xml")
+    outXml = etree.Element("root")
     for knob in inputXml.getiterator("warning"):
         path = knob.get("path").split('/')
         root = outXml
-        while (path):
+        while path:
             page_name = path.pop(0)
             print(page_name)
             for child in root.iterchildren():
                 if child.get('name') == page_name:
-                    print ("found {}".format(page_name))
+                    print("found {}".format(page_name))
                     root = child
                     break
             else:
-                new_page = ET.Element("page")
+                new_page = etree.Element("page")
                 new_page.set('name', page_name)
                 root.append(new_page)
                 root = new_page
@@ -36,7 +37,7 @@ if __name__ == '__main__':
             print(knob.text)
 
     with open("output.xml", 'w') as file:
-        file.write(ET.tostring(outXml, encoding='unicode', pretty_print=True))
+        file.write(etree.tostring(outXml, encoding='unicode', pretty_print=True))
 
     print('bye')
 
