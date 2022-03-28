@@ -1,0 +1,34 @@
+<message>
+    <warning path="pagina1/subpagina1">ejemplo00</warning>
+    <warning path="pagina1/subpagina1">ejemplo01</warning>
+    <warning path="pagina1/subpagina1">ejemplo02</warning>
+    <warning path="pagina1/subpagina1">ejemplo03</warning>
+    <warning path="pagina1/subpagina1">ejemplo04</warning>
+    <warning path="pagina1">ejemplo05</warning>
+    <warning path="pagina1/subpagina2">ejemplo06</warning>
+    <warning path="pagina1/subpagina2">ejemplo07</warning>
+    <warning path="pagina1/subpagina2">ejemplo08</warning>
+    <warning path="pagina1/subpagina2">ejemplo09</warning>
+    <warning path="pagina1/subpagina2">ejemplo11</warning>
+    <warning path="pagina2/subpagina1">ejemplo12</warning>
+    <warning path="pagina2/subpagina1">ejemplo13</warning>
+    <warning path="pagina2/subpagina2">ejemplo14</warning>
+    <warning path="pagina2/subpagina2">ejemplo15</warning>
+    <warning path="pagina2">ejemplo16</warning>
+    <warning path="pagina2/subpagina2">ejemplo17</warning>
+    <warning path="pagina2/subpagina2">ejemplo18</warning>
+    <warning path="pagina2/subpagina2">ejemplo19</warning>
+    <warning path="pagina2/subpagina2">ejemplo20</warning>
+    <warning path="pagina2/subpagina2">ejemplo21</warning>
+    <warning path="pagina2/subpagina2">ejemplo22</warning>
+    <warning path="pagina2">ejemplo23</warning>
+    <warning path="pagina2/subpagina2">ejemplo24</warning>
+    <warning path="pagina2/subpagina2">ejemplo25</warning>
+    <warning path="pagina2/subpagina2">ejemplo26</warning>
+    <warning path="pagina2/subpagina2">ejemplo27</warning>
+    <warning path="pagina2/subpagina2">ejemplo28</warning>
+    <warning path="pagina3/subpagina1">ejemplo29</warning>
+    <warning path="pagina4/subpagina1">ejemplo30</warning>
+    <warning path="pagina5/subpagina1">ejemplo31</warning>
+    <warning path="pagina6/subpagina1">ejemplo32</warning>
+</message>
